@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NBA 2K23 - Melhores Fatos sobre a NBA </title>
+    <link rel="stylesheet" href="Css/Style.css" media="all" />
+    <link rel="stylesheet" href="Css/media-query.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="shortcut icon" href="Imagem/Icone.png" type="image/x-icon" />
+</head>
+<body>
+   
+    <header class="cabeçalho">
+        <div class="telaInicial" id="TelaInicial1">
+            <div class="btn-menu"><img src="Imagem/Jogador.png" alt="" height="48px"></div>
+        </div>
+        <a href="index.html"><h1 class="logo"> NBA 2K23 - NOSSA ATUAL NBA</h1>
+            <div class="isVisible" id="opcoes">
+                <nav>
+                <ul>
+                <li><a href="index.html">Tela Inicial</a></li>
+                <li><a href="index.html">Times Destaques</a></li>
+                <li><a href="index.html">Maiores Jogadores</a></li>
+                <li><a href="index.html">Melhores 10 Jogadas 2023</a></li>
+                <li><a href="index.html">Regras Da NBA</a></li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+    <main class="jogos">
+        <article class="jogo">
+            <a href="#"><img src="Imagem/Inicio.png" alt="NBA 2K23"></a>
+            <div class="inner">
+                <a href="#"> NBA 2K23 </a>
+                <h2>Tudo sobre a atualidade da NBA 2k23 - Melhor site sobre basquete que irá existir</h2>
+                <p> Venha conhecer sobre tudo que você precisar saber da atual NBA, incluindo os maios jogadores, os Times
+                    com mais destaque da ultima temporada, nosso top 10 jogadas do ano e se por acaso você não saber as
+                    regras da NBA temos elas explicand passo a passo.
+                </p>
+            </div>
+
+        </article>
+    </main>
+    <footer>
+        <center>   <p>Nos siga nas redes sociais abaixo:</p> </center>
+           <ul>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+           </ul>
+        <center>  <p>&copy; NBA 2K23 - Copyright exclusivo de cada autor  </p> </center>
+        <script>
+            const menu = document.getElementById('TelaInicial1');
+            const opcoes = document.getElementById('opcoes');
+        
+            menu.addEventListener('click', () => {
+                opcoes.classList.toggle('isVisible');
+            });
+        </script>
+    </footer>
+</body>
+</html>

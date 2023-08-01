@@ -1,0 +1,58 @@
+/* Inicio */
+* {margin: 0%; padding: 0%; font-size: 100%; border: none; outline: none; font-weight: 300%; box-sizing: border-box;}
+body {background-color: rgb(224, 102, 20);}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+
+/* Cabeçalho */
+.cabeçalho {width: 100%; float: left; padding: 3% 4%;}
+.logo {width: 56px; height: 56px; float: left; background: url(../Imagem/Logotipo.png) center center/56px no-repeat;
+font-size: 0;}
+
+.isVisible {
+    display: none;
+}
+
+.btn-menu{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgb(248, 239, 238);
+    float: right;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    float: right;
+    margin: 3px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* NBA */
+.jogos {width: 100%; float: left; padding: 3% 4%;}
+.jogo {width: 100%; background-color: rgba(226, 96, 9, 0.815); text-align: left; border-radius: 7px; margin-bottom: 3%;}
+.jogo img {border-radius: 7px 7px 0 0;}
+.inner {padding: 7%;}
+.inner a {font-size: 1.5em; color: rgb(255, 255, 255); font-weight: 700;}
+.inner h2 {font-size: 1.2em; color: rgb(255, 255, 255); margin-top: 2%;}
+.inner p { margin-top: 6%; color: rgb(255, 255, 255); line-height: 1.5em;}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    footer{ background-color: rgba(221, 105, 9, 0.815);
+        height: auto;
+    }

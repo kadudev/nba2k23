@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+.isVisible {
+    display: block; 
+  }
+
+  .btn-menu {
+    display: none; 
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+  }
+
+  ul li {
+    margin: 0 15px; 
+}
+}
